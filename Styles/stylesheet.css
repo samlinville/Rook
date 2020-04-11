@@ -1,0 +1,344 @@
+body
+{
+	font-family: 'Quando', serif;
+	font-size: 1.5em;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+input
+{
+	border-radius: 4px;
+	font-family: 'Quando', serif;
+	font-size: .8em;
+	background-color: #fff9dc;
+	border-style: solid;
+	border-color: black;
+}
+
+#alertbox
+{
+	position: absolute;
+	background-color: red;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #525252;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	padding-bottom: 5px;
+	top: -80px;
+	color: white;		
+	left: 50%;
+	text-align: center;
+	white-space: nowrap;
+	font-size: .8em;
+}
+
+#gamecontainer
+{
+	position: absolute;
+	right: 50%;
+	width: 40%;
+	height: 100%;
+}
+
+#chatcontainer
+{
+	position: absolute;
+	left: 50%;
+	width: 40%;
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 100%;	
+}
+
+#lobbychatarea
+{	
+	margin-top: 20px;
+	width: 100%;
+	height: 80%;
+	resize: none;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	font-size: .6em;
+	padding: 10px;
+	overflow: hidden;
+}
+
+#lobbychatinput
+{
+	font-size: .7em;
+	background-color: white;
+	width: 70%;
+}
+
+.indentedLeft
+{
+	float: left;
+	width: 400px;
+	margin: 5px;
+}
+
+.indentedRight
+{
+	float: right;
+	width: 200px;
+	margin: 5px;
+}
+
+#connectingpage
+{
+	position: absolute;
+	width: 100%;
+		
+}
+
+.gamedescription
+{
+	font-size: .6em;
+}
+
+#cardscontainer
+{
+	position: absolute;
+	width: 700px;
+	margin-left: -350px;
+	left: 50%;
+	bottom: 260px;
+}
+
+#cardscontainer img
+{
+	position: absolute;	
+	margin-left: -70px;
+}
+
+#target
+{
+	position: absolute;
+	width: 300px;
+	height: 230px;
+	border-style: none;
+	left: 50%;
+	margin-left: -80px;
+	bottom: 345px;
+}
+
+#faketarget
+{
+	position: absolute;
+	width: 160px;
+	height: 230px;
+	border-style: solid;
+	border-radius: 5px;		
+	left: 50%;
+	margin-left: -80px;
+	bottom: 345px;
+	background-color: transparent;
+}
+
+#currentbidcontainer
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 310px;
+}
+
+#yourbidcontainer
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -240px;	
+	text-align: center;
+	bottom: 244px;
+}
+
+#bidbutton
+{
+	position: absolute;
+	bottom: 266px;
+	left: 50%;
+	margin-left: 100px;
+}
+
+#passbutton
+{
+	position: absolute;
+	bottom: 266px;
+	left: 50%;
+	margin-left: 160px;
+}
+
+#newsfeed
+{
+	position: absolute;
+	width: 700px;
+	text-align: center;
+	bottom: 270px;
+	left: 50%;
+	margin-left: -350px;
+}
+
+#submitkitty
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -145px;
+	bottom: 520px;		
+}
+
+#trumpselector
+{
+	position: absolute;
+	left: 50%;
+	margin-left: -152px;
+	bottom: 400px;
+}
+
+.trumpoption
+{	
+	border-style: solid;
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+	float: left;
+	cursor: pointer;	
+}
+
+#topcardscontainer
+{
+	position: absolute;
+	width: 700px;
+	margin-left: -350px;
+	left: 50%;
+	top: -135px;
+}
+
+#leftcardscontainer
+{
+	position: absolute;
+	margin-top: -200px;
+	top: 50%;
+	left: -135px;
+}
+
+#rightcardscontainer
+{
+	position: absolute;
+	margin-top: -200px;
+	top: 50%;
+	right: 75px;	
+}
+
+#bottomnamecontainer
+{
+	position: absolute;	
+	text-align: center;
+	bottom: 10px;	
+	padding-left: 15px;
+	padding-right: 15px;
+	left: 50%;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+#topnamecontainer
+{
+	position: absolute;
+	text-align: center;
+	top: 85px;
+	padding-left: 15px;
+	padding-right: 15px;
+	left: 50%;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+#leftnamecontainer
+{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	margin-top: -20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+#rightnamecontainer
+{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	right: 70px;
+	margin-top: -20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+#leftpulsatinggreen
+{
+	z-index: -100; 
+	position: absolute; 
+	width: 35px; 
+	margin-top: -100px;
+	top: 50%;
+	left: 80px;
+	height: 200px;
+}
+
+#rightpulsatinggreen
+{
+	z-index: -100; 
+	position: absolute; 
+	width: 35px; 
+	margin-top: -100px;
+	top: 50%;
+	right: 80px;
+	height: 200px;
+}
+
+#toppulsatinggreen
+{
+	z-index: -100; 
+	position: absolute; 
+	width: 200px; 
+	margin-left: -100px;
+	left: 50%;
+	top: 85px;
+	height: 35px;
+}
+
+#bottompulsatinggreen
+{
+	z-index: -100; 
+	position: absolute; 
+	width: 200px; 
+	margin-left: -100px;
+	left: 50%;
+	bottom: 8px; 
+	height: 35px;
+}
+
+.rotatedclockwise
+{
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+
+.rotatedcounterclockwise
+{	
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+}
