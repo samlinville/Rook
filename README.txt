@@ -1,1 +1,0 @@
-Rook is an online, multiplayer implementation of the classic card game Rook, using PHP WebSockets and CSS3.
